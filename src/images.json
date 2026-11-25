@@ -1,17 +1,10 @@
 {
- "engine-detail": [
-  {
-   "w": 1024,
-   "h": 677,
-   "file": "engine-detail-1024.webp"
-  },
+ "engine-work": [
   {
    "w": 640,
-   "h": 423,
-   "file": "engine-detail-640.webp"
-  }
- ],
- "engine-work": [
+   "h": 480,
+   "file": "engine-work-640.webp"
+  },
   {
    "w": 1024,
    "h": 768,
@@ -23,24 +16,44 @@
    "file": "engine-work-1600.webp"
   },
   {
-   "w": 640,
-   "h": 480,
-   "file": "engine-work-640.webp"
+   "w": 1920,
+   "h": 1440,
+   "file": "engine-work-1920.webp"
+  },
+  {
+   "w": 2560,
+   "h": 1920,
+   "file": "engine-work-2560.webp"
   }
  ],
  "fleet-service": [
+  {
+   "w": 640,
+   "h": 426,
+   "file": "fleet-service-640.webp"
+  },
   {
    "w": 1024,
    "h": 681,
    "file": "fleet-service-1024.webp"
   },
   {
-   "w": 640,
-   "h": 426,
-   "file": "fleet-service-640.webp"
+   "w": 1600,
+   "h": 1064,
+   "file": "fleet-service-1600.webp"
+  },
+  {
+   "w": 2048,
+   "h": 1362,
+   "file": "fleet-service-2048.webp"
   }
  ],
  "ongwediva-town": [
+  {
+   "w": 640,
+   "h": 427,
+   "file": "ongwediva-town-640.webp"
+  },
   {
    "w": 1024,
    "h": 683,
@@ -52,29 +65,22 @@
    "file": "ongwediva-town-1600.webp"
   },
   {
-   "w": 640,
-   "h": 427,
-   "file": "ongwediva-town-640.webp"
-  }
- ],
- "panel-beating": [
-  {
-   "w": 1024,
-   "h": 768,
-   "file": "panel-beating-1024.webp"
+   "w": 1920,
+   "h": 1280,
+   "file": "ongwediva-town-1920.webp"
   },
   {
-   "w": 1600,
-   "h": 1200,
-   "file": "panel-beating-1600.webp"
-  },
-  {
-   "w": 640,
-   "h": 480,
-   "file": "panel-beating-640.webp"
+   "w": 2560,
+   "h": 1707,
+   "file": "ongwediva-town-2560.webp"
   }
  ],
  "road-ongwediva": [
+  {
+   "w": 640,
+   "h": 427,
+   "file": "road-ongwediva-640.webp"
+  },
   {
    "w": 1024,
    "h": 683,
@@ -86,26 +92,122 @@
    "file": "road-ongwediva-1600.webp"
   },
   {
-   "w": 640,
-   "h": 427,
-   "file": "road-ongwediva-640.webp"
+   "w": 1920,
+   "h": 1280,
+   "file": "road-ongwediva-1920.webp"
+  },
+  {
+   "w": 2560,
+   "h": 1707,
+   "file": "road-ongwediva-2560.webp"
   }
  ],
- "spray-gun-1918": [
-  {
-   "w": 1024,
-   "h": 592,
-   "file": "spray-gun-1918-1024.webp"
-  },
-  {
-   "w": 1600,
-   "h": 925,
-   "file": "spray-gun-1918-1600.webp"
-  },
+ "hero-repair": [
   {
    "w": 640,
-   "h": 370,
-   "file": "spray-gun-1918-640.webp"
+   "h": 357,
+   "file": "hero-repair-640.webp"
+  },
+  {
+   "w": 1024,
+   "h": 571,
+   "file": "hero-repair-1024.webp"
+  },
+  {
+   "w": 1280,
+   "h": 714,
+   "file": "hero-repair-1280.webp"
+  },
+  {
+   "w": 1920,
+   "h": 1071,
+   "file": "hero-repair-1920.webp"
+  },
+  {
+   "w": 2560,
+   "h": 1428,
+   "file": "hero-repair-2560.webp"
+  }
+ ],
+ "spray-booth": [
+  {
+   "w": 640,
+   "h": 357,
+   "file": "spray-booth-640.webp"
+  },
+  {
+   "w": 1024,
+   "h": 572,
+   "file": "spray-booth-1024.webp"
+  },
+  {
+   "w": 1376,
+   "h": 768,
+   "file": "spray-booth-1376.webp"
+  },
+  {
+   "w": 1920,
+   "h": 1072,
+   "file": "spray-booth-1920.webp"
+  },
+  {
+   "w": 2560,
+   "h": 1429,
+   "file": "spray-booth-2560.webp"
+  }
+ ],
+ "panel-workshop": [
+  {
+   "w": 640,
+   "h": 357,
+   "file": "panel-workshop-640.webp"
+  },
+  {
+   "w": 1024,
+   "h": 572,
+   "file": "panel-workshop-1024.webp"
+  },
+  {
+   "w": 1376,
+   "h": 768,
+   "file": "panel-workshop-1376.webp"
+  },
+  {
+   "w": 1920,
+   "h": 1072,
+   "file": "panel-workshop-1920.webp"
+  },
+  {
+   "w": 2560,
+   "h": 1429,
+   "file": "panel-workshop-2560.webp"
+  }
+ ],
+ "electrical-diagnostics": [
+  {
+   "w": 640,
+   "h": 357,
+   "file": "electrical-diagnostics-640.webp"
+  },
+  {
+   "w": 1024,
+   "h": 572,
+   "file": "electrical-diagnostics-1024.webp"
+  },
+  {
+   "w": 1376,
+   "h": 768,
+   "file": "electrical-diagnostics-1376.webp"
+  },
+  {
+   "w": 1920,
+   "h": 1072,
+   "file": "electrical-diagnostics-1920.webp"
+  },
+  {
+   "w": 2560,
+   "h": 1429,
+   "file": "electrical-diagnostics-2560.webp"
   }
  ]
 }
