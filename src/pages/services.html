@@ -1,0 +1,91 @@
+<!--meta {
+  "title": "Services | Panel beating, spray painting, mechanical and electrical repairs | PD Touch, Ongwediva",
+  "description": "Panel beating, spray painting, polishing, mechanical and electrical repairs and gas refills for every vehicle make, at PD Touch Auto Repair in Ongwediva.",
+  "nav": "services"
+} -->
+    <section class="phero" aria-labelledby="page-title">
+      <div class="phero__media">{{img name="engine-work" alt="" sizes="100vw" eager class="drift"}}</div>
+      <div class="wrap phero__content">
+        <p class="kicker" data-reveal>What we do</p>
+        <h1 id="page-title" data-reveal>Our <span class="accent">services</span></h1>
+        <p data-reveal>Every make and model, under one roof.</p>
+        <div class="hero__actions" data-reveal><a class="btn btn--red" href="/contact/">Request a quote {{icon arrow}}</a></div>
+      </div>
+    </section>
+
+    <div class="section">
+      <div class="wrap svc-rows">
+        <section class="split" id="panel-beating" aria-labelledby="s-panel">
+          <figure class="split__media" data-reveal>{{img name="panel-beating" alt="A panel beater heats and straightens the steel inside a car's rear wheel arch" sizes="(min-width: 900px) 50vw, 100vw"}}</figure>
+          <div class="split__text" data-reveal>
+            <span class="badge">{{icon hammer}}</span>
+            <h2 class="h2" id="s-panel">Panel beating</h2>
+            <p class="lead">Damaged panels restored to their original shape, including insurance repairs.</p>
+            <a class="more" href="/contact/?service=panel-beating">Get a quote {{icon arrow}}</a>
+          </div>
+        </section>
+
+        <section class="split split--flip" id="spray-painting" aria-labelledby="s-paint">
+          <figure class="split__media" data-reveal>{{img name="spray-gun-1918" alt="An early pneumatic paint sprayer photographed in 1918" sizes="(min-width: 900px) 50vw, 100vw"}}</figure>
+          <div class="split__text" data-reveal>
+            <span class="badge">{{icon spray}}</span>
+            <h2 class="h2" id="s-paint">Spray painting</h2>
+            <p class="lead">Colour-matched paint, from one panel to a full respray.</p>
+            <a class="more" href="/contact/?service=spray-painting">Get a quote {{icon arrow}}</a>
+          </div>
+        </section>
+
+        <section class="split" id="mechanical" aria-labelledby="s-mech">
+          <figure class="split__media" data-reveal>{{img name="engine-work" alt="Hands working with a flame and tools on an open engine block" sizes="(min-width: 900px) 50vw, 100vw"}}</figure>
+          <div class="split__text" data-reveal>
+            <span class="badge">{{icon wrench}}</span>
+            <h2 class="h2" id="s-mech">Mechanical repairs</h2>
+            <p class="lead">Servicing, diagnostics and repairs for all makes and models.</p>
+            <a class="more" href="/contact/?service=mechanical">Book a service {{icon arrow}}</a>
+          </div>
+        </section>
+
+        <section class="split split--flip" id="electrical" aria-labelledby="s-elec">
+          <figure class="split__media" data-reveal>{{img name="engine-detail" alt="Black and white close-up of an engine's cylinder head and fittings" sizes="(min-width: 900px) 50vw, 100vw"}}</figure>
+          <div class="split__text" data-reveal>
+            <span class="badge">{{icon bolt}}</span>
+            <h2 class="h2" id="s-elec">Electrical repairs</h2>
+            <p class="lead">Electrical faults found at the source and fixed.</p>
+            <a class="more" href="/contact/?service=electrical">Get a quote {{icon arrow}}</a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <section class="section section--alt" aria-labelledby="more-title">
+      <div class="wrap">
+        <h2 class="h2 h2--center" id="more-title" data-reveal>Also in the workshop<span class="rule" aria-hidden="true"></span></h2>
+        <ul class="cards cards--3 cards--spaced">
+          <li class="card card--plain" id="polishing" data-reveal>
+            <div class="card__body">
+              <span class="badge">{{icon shine}}</span>
+              <h3>Polishing</h3>
+              <p>The shine brought back to tired paintwork.</p>
+              <a class="more" href="/contact/?service=polishing">Get a quote {{icon arrow}}<span class="visually-hidden"> for polishing</span></a>
+            </div>
+          </li>
+          <li class="card card--plain" id="gas-refill" data-reveal>
+            <div class="card__body">
+              <span class="badge">{{icon gas}}</span>
+              <h3>Gas refill</h3>
+              <p>Call ahead to check it suits your car.</p>
+              <a class="more" href="tel:{{phone1Intl}}">Call {{phone1}} {{icon arrow}}</a>
+            </div>
+          </li>
+          <li class="card card--plain" id="towing" data-reveal>
+            <div class="card__body">
+              <span class="badge">{{icon truck}}</span>
+              <h3>Towing</h3>
+              <p>Coming soon.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    {{> cta}}

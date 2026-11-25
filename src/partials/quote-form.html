@@ -1,0 +1,73 @@
+<!-- Placeholder handling: with data-endpoint empty, the form validates and shows a
+           success state that sends the request by email. Set data-endpoint to a form
+           service URL to receive submissions directly (see README). -->
+      <form class="form" id="quote" data-quote-form data-endpoint="" action="mailto:{{email}}?subject=Quote%20request" method="post" enctype="text/plain">
+        <div class="form__summary" data-error-summary tabindex="-1" role="alert" hidden>
+          <h2>There are things to fix</h2>
+          <ul></ul>
+        </div>
+        <div class="form__row form__row--2">
+          <div class="field">
+            <label for="name">Your name <span class="req" aria-hidden="true">*</span></label>
+            <div class="field__box">{{icon user}}<input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error"></div>
+            <p class="field__error" id="name-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number <span class="req" aria-hidden="true">*</span></label>
+            <div class="field__box">{{icon phone}}<input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required aria-describedby="phone-error"></div>
+            <p class="field__error" id="phone-error" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="form__row form__row--2">
+          <div class="field">
+            <label for="email">Email (optional)</label>
+            <div class="field__box">{{icon mail}}<input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error"></div>
+            <p class="field__error" id="email-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="vehicle">Vehicle <span class="req" aria-hidden="true">*</span></label>
+            <div class="field__box">{{icon car}}<input id="vehicle" name="vehicle" type="text" required placeholder="e.g. Toyota Hilux" aria-describedby="vehicle-error"></div>
+            <p class="field__error" id="vehicle-error" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="field">
+          <label for="service">Service <span class="req" aria-hidden="true">*</span></label>
+          <div class="field__box field__box--select">{{icon wrench}}
+            <select id="service" name="service" required aria-describedby="service-error">
+              <option value="">Choose a service</option>
+              <option value="panel-beating">Panel beating</option>
+              <option value="spray-painting">Spray painting</option>
+              <option value="polishing">Polishing</option>
+              <option value="mechanical">Mechanical repairs</option>
+              <option value="electrical">Electrical repairs</option>
+              <option value="gas-refill">Gas refill</option>
+              <option value="fleet">Fleet or insurance work</option>
+              <option value="not-sure">Not sure yet</option>
+            </select>
+          </div>
+          <p class="field__error" id="service-error" aria-live="polite"></p>
+        </div>
+        <div class="field">
+          <label for="message">What happened? <span class="req" aria-hidden="true">*</span></label>
+          <div class="field__box">{{icon tag}}<textarea id="message" name="message" rows="4" required aria-describedby="message-error"></textarea></div>
+          <p class="field__error" id="message-error" aria-live="polite"></p>
+        </div>
+        <div class="hp" aria-hidden="true">
+          <label for="website">Leave this empty</label>
+          <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <button class="btn btn--red btn--block" type="submit">Send request {{icon arrow}}</button>
+        <p class="form__note"><span class="req">*</span> Required. Or call <a href="tel:{{phone1Intl}}">{{phone1}}</a>.</p>
+      </form>
+
+      <div class="done" data-form-done tabindex="-1" role="status" hidden>
+        <div data-done-mode="sent">
+          <h3>Thank you<span data-done-name></span>.</h3>
+          <p>We&rsquo;ll call you back soon.</p>
+        </div>
+        <div data-done-mode="email">
+          <h3>Thank you<span data-done-name></span>. Almost done.</h3>
+          <p>Send it from your email app, or call {{phone1}}.</p>
+        </div>
+        <a class="btn btn--red" data-done-mail href="mailto:{{email}}">Send it by email {{icon arrow}}</a>
+      </div>

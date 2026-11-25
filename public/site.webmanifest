@@ -1,0 +1,13 @@
+{
+  "name": "PD Touch Auto Repair",
+  "short_name": "PD Touch",
+  "description": "Woman-owned auto repair workshop in Ongwediva, Namibia.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#08080a",
+  "theme_color": "#08080a",
+  "icons": [
+    { "src": "/assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,33 @@
+<!--meta {
+  "title": "Request a quote | PD Touch Auto Repair, Ongwediva",
+  "description": "Ask PD Touch Auto Repair in Ongwediva for a quote on panel beating, spray painting, polishing, mechanical or electrical repairs. Call 081 216 0146 or 081 035 5550.",
+  "nav": "contact"
+} -->
+    <section class="phero" aria-labelledby="page-title">
+      <div class="phero__media">{{img name="road-ongwediva" alt="" sizes="100vw" eager}}</div>
+      <div class="wrap phero__content">
+        <p class="kicker" data-reveal>Contact</p>
+        <h1 id="page-title" data-reveal>Request <span class="accent">a quote</span></h1>
+        <p data-reveal>Tell us what happened. We&rsquo;ll call you back.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Quote request form and contact details">
+      <div class="wrap contact-grid">
+        <div class="panel" data-reveal>
+          <h2>Your details</h2>
+          {{> quote-form}}
+        </div>
+
+        <aside class="panel" aria-labelledby="direct-title" data-reveal>
+          <h2 id="direct-title">Reach us</h2>
+          <ul class="details">
+            <li><span class="badge">{{icon phone}}</span><span><span class="label">Call Diana</span><a class="value" href="tel:{{phone1Intl}}">{{phone1}}</a><br><a class="value" href="tel:{{phone2Intl}}">{{phone2}}</a></span></li>
+            <li><span class="badge">{{icon mail}}</span><span><span class="label">Email</span><a class="value" href="mailto:{{email}}">{{email}}</a></span></li>
+            <li><span class="badge">{{icon pin}}</span><span><span class="label">Workshop</span><span class="value"><span class="ph">[Street address]</span>, Ongwediva</span><br>P.O. Box 3620</span></li>
+            <li><span class="badge">{{icon clock}}</span><span><span class="label">Hours</span><span class="value ph">[Opening hours]</span></span></li>
+          </ul>
+          <p class="panel__foot"><a class="btn btn--ghost btn--block" href="https://www.google.com/maps/search/?api=1&amp;query=Ongwediva%2C%20Namibia" rel="noopener" target="_blank">{{icon pin}} Open in Google Maps<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+        </aside>
+      </div>
+    </section>

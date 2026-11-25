@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-NA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="robots" content="{{robots}}">
+  <link rel="canonical" href="{{canonical}}">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{name}}">
+  <meta property="og:locale" content="en_NA">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{ogImage}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PD Touch Auto Repair Shop crest: a car, two pistons and a gear, with the line A royal touch to every repair">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/brand/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="/assets/fonts/barlow-condensed-700-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/site.css?v={{cssV}}">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="/js/site.js?v={{jsV}}" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "{{legalName}}",
+    "alternateName": "{{name}}",
+    "slogan": "A royal touch to every repair",
+    "url": "{{siteUrl}}/",
+    "logo": "{{siteUrl}}/assets/brand/pd-touch-logo.png",
+    "image": "{{ogImage}}",
+    "telephone": ["{{phone1Intl}}", "{{phone2Intl}}"],
+    "email": "{{email}}",
+    "foundingDate": "2020",
+    "numberOfEmployees": { "@type": "QuantitativeValue", "value": 10 },
+    "address": {
+      "@type": "PostalAddress",
+      "postOfficeBoxNumber": "3620",
+      "addressLocality": "Ongwediva",
+      "addressRegion": "Oshana",
+      "addressCountry": "NA"
+    },
+    "areaServed": "Northern Namibia",
+    "knowsAbout": ["Panel beating", "Spray painting", "Polishing", "Mechanical repairs", "Electrical repairs", "Vehicle gas refill"]
+  }
+  </script>
+</head>
+<body class="{{bodyClass}}">
+  {{> icons}}
+  <a class="skip" href="#main">Skip to content</a>
+  {{> header}}
+  <main id="main" tabindex="-1">
+{{content}}
+  </main>
+  {{> footer}}
+</body>
+</html>

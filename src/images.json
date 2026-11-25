@@ -1,0 +1,111 @@
+{
+ "engine-detail": [
+  {
+   "w": 1024,
+   "h": 677,
+   "file": "engine-detail-1024.webp"
+  },
+  {
+   "w": 640,
+   "h": 423,
+   "file": "engine-detail-640.webp"
+  }
+ ],
+ "engine-work": [
+  {
+   "w": 1024,
+   "h": 768,
+   "file": "engine-work-1024.webp"
+  },
+  {
+   "w": 1600,
+   "h": 1200,
+   "file": "engine-work-1600.webp"
+  },
+  {
+   "w": 640,
+   "h": 480,
+   "file": "engine-work-640.webp"
+  }
+ ],
+ "fleet-service": [
+  {
+   "w": 1024,
+   "h": 681,
+   "file": "fleet-service-1024.webp"
+  },
+  {
+   "w": 640,
+   "h": 426,
+   "file": "fleet-service-640.webp"
+  }
+ ],
+ "ongwediva-town": [
+  {
+   "w": 1024,
+   "h": 683,
+   "file": "ongwediva-town-1024.webp"
+  },
+  {
+   "w": 1600,
+   "h": 1067,
+   "file": "ongwediva-town-1600.webp"
+  },
+  {
+   "w": 640,
+   "h": 427,
+   "file": "ongwediva-town-640.webp"
+  }
+ ],
+ "panel-beating": [
+  {
+   "w": 1024,
+   "h": 768,
+   "file": "panel-beating-1024.webp"
+  },
+  {
+   "w": 1600,
+   "h": 1200,
+   "file": "panel-beating-1600.webp"
+  },
+  {
+   "w": 640,
+   "h": 480,
+   "file": "panel-beating-640.webp"
+  }
+ ],
+ "road-ongwediva": [
+  {
+   "w": 1024,
+   "h": 683,
+   "file": "road-ongwediva-1024.webp"
+  },
+  {
+   "w": 1600,
+   "h": 1067,
+   "file": "road-ongwediva-1600.webp"
+  },
+  {
+   "w": 640,
+   "h": 427,
+   "file": "road-ongwediva-640.webp"
+  }
+ ],
+ "spray-gun-1918": [
+  {
+   "w": 1024,
+   "h": 592,
+   "file": "spray-gun-1918-1024.webp"
+  },
+  {
+   "w": 1600,
+   "h": 925,
+   "file": "spray-gun-1918-1600.webp"
+  },
+  {
+   "w": 640,
+   "h": 370,
+   "file": "spray-gun-1918-640.webp"
+  }
+ ]
+}

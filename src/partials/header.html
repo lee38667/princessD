@@ -1,0 +1,25 @@
+<header class="bar" data-bar>
+    <div class="wrap bar__inner">
+      <a class="bar__brand" href="/" aria-label="PD Touch Auto Repair, home">
+        <img src="/assets/brand/crest-clear-120.webp" width="120" height="128" alt="">
+        <span>PD Touch</span>
+      </a>
+      <nav class="bar__nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/services/" data-nav="services">Services</a></li>
+          <li><a href="/fleet-and-insurance/" data-nav="fleet">Fleet &amp; insurance</a></li>
+          <li><a href="/about/" data-nav="about">About</a></li>
+          <li><a href="/contact/" data-nav="contact">Contact</a></li>
+        </ul>
+        <div class="bar__menu-extra">
+          <a class="btn btn--red btn--block" href="/contact/">Request a quote {{icon arrow}}</a>
+          <p>Call <a href="tel:{{phone1Intl}}">{{phone1}}</a> or <a href="tel:{{phone2Intl}}">{{phone2}}</a></p>
+        </div>
+      </nav>
+      <a class="btn btn--red bar__cta" href="/contact/">Request a quote {{icon arrow}}</a>
+      <button class="bar__toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="bar__burger" aria-hidden="true"></span>
+        <span class="bar__toggle-label">Menu</span>
+      </button>
+    </div>
+  </header>

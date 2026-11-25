@@ -1,0 +1,16 @@
+{
+  "name": "pd-touch-auto-repair-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing website for Princess D Touch Auto Repair CC, Ongwediva, Namibia.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.11"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "build:review": "node scripts/build-review.mjs"
+  }
+}

@@ -1,0 +1,176 @@
+<!--meta {
+  "title": "PD Touch Auto Repair | Panel beating, spray painting and mechanical repairs in Ongwediva",
+  "description": "Woman-owned auto repair workshop in Ongwediva, Namibia. Panel beating, spray painting, polishing, mechanical and electrical repairs for every make. Call 081 216 0146.",
+  "nav": "home",
+  "bodyClass": "page-home"
+} -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media">
+        {{img name="panel-beating" alt="A panel beater heats and straightens the steel inside a car's rear wheel arch" sizes="100vw" eager class="drift"}}
+      </div>
+      <div class="wrap hero__content">
+        <p class="kicker" data-reveal>Auto repair &middot; Ongwediva</p>
+        <h1 class="hero__title" id="hero-title" data-reveal><span>A royal touch</span> <span class="accent">to every repair.</span></h1>
+        <p class="hero__lead" data-reveal>Panel beating, spray painting and mechanical repairs for every make, from a woman-owned workshop.</p>
+        <div class="hero__actions" data-reveal>
+          <a class="btn btn--red" href="/contact/">Request a quote {{icon arrow}}</a>
+          <a class="btn btn--ghost" href="tel:{{phone1Intl}}">{{icon phone}} {{phone1}}</a>
+        </div>
+        <ul class="ticks" aria-label="At a glance" data-reveal>
+          <li>{{icon check}} Since 2020</li>
+          <li>{{icon check}} All makes</li>
+          <li>{{icon check}} Team of ten</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="head">
+          <div data-reveal>
+            <p class="kicker">What we do</p>
+            <h2 class="h2" id="services-title">Our services</h2>
+          </div>
+          <a class="btn btn--ghost" href="/services/" data-reveal>All services {{icon arrow}}</a>
+        </div>
+        <ul class="cards cards--4">
+          <li class="card" data-reveal>
+            <div class="card__media">{{img name="panel-beating" alt="Panel beating inside a wheel arch" sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"}}</div>
+            <div class="card__body">
+              <span class="badge">{{icon hammer}}</span>
+              <h3>Panel beating</h3>
+              <p>Damaged panels back to their original shape.</p>
+              <a class="more" href="/services/#panel-beating">Learn more {{icon arrow}}<span class="visually-hidden"> about panel beating</span></a>
+            </div>
+          </li>
+          <li class="card" data-reveal>
+            <div class="card__media">{{img name="spray-gun-1918" alt="An early pneumatic paint sprayer" sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"}}</div>
+            <div class="card__body">
+              <span class="badge">{{icon spray}}</span>
+              <h3>Spray painting</h3>
+              <p>Colour-matched, one panel or a full respray.</p>
+              <a class="more" href="/services/#spray-painting">Learn more {{icon arrow}}<span class="visually-hidden"> about spray painting</span></a>
+            </div>
+          </li>
+          <li class="card" data-reveal>
+            <div class="card__media">{{img name="engine-work" alt="Hands working on an open engine block" sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"}}</div>
+            <div class="card__body">
+              <span class="badge">{{icon wrench}}</span>
+              <h3>Mechanical</h3>
+              <p>Servicing, diagnostics and repairs.</p>
+              <a class="more" href="/services/#mechanical">Learn more {{icon arrow}}<span class="visually-hidden"> about mechanical repairs</span></a>
+            </div>
+          </li>
+          <li class="card" data-reveal>
+            <div class="card__media">{{img name="engine-detail" alt="Close-up of an engine cylinder head" sizes="(min-width: 1000px) 25vw, (min-width: 600px) 50vw, 100vw"}}</div>
+            <div class="card__body">
+              <span class="badge">{{icon bolt}}</span>
+              <h3>Electrical</h3>
+              <p>Faults found at the source and fixed.</p>
+              <a class="more" href="/services/#electrical">Learn more {{icon arrow}}<span class="visually-hidden"> about electrical repairs</span></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="why-title">
+      <div class="wrap">
+        <h2 class="h2 h2--center" id="why-title" data-reveal>Why choose us<span class="rule" aria-hidden="true"></span></h2>
+        <ul class="why">
+          <li data-reveal>{{icon roof}}<h3>One roof</h3><p>Every vehicle brand, serviced and repaired.</p></li>
+          <li data-reveal>{{icon wrench}}<h3>The full job</h3><p>Bodywork, paint, mechanical and electrical.</p></li>
+          <li data-reveal>{{icon team}}<h3>Team of ten</h3><p>Serving clients since 2020.</p></li>
+          <li data-reveal>{{icon heart}}<h3>Woman-owned</h3><p>A local Ongwediva business.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Find the right service and request a quote">
+      <div class="wrap book">
+        <div class="panel" data-chooser data-reveal>
+          <h2 id="chooser-title">What happened?</h2>
+          <p>Pick one and we&rsquo;ll fill in the form for you.</p>
+          <div class="chooser__list" role="tablist" aria-labelledby="chooser-title">
+            <button type="button" role="tab" id="t-accident" aria-controls="p-accident" aria-selected="true">{{icon hammer}} Accident or dent</button>
+            <button type="button" role="tab" id="t-paint" aria-controls="p-paint" aria-selected="false">{{icon spray}} Scratched paint</button>
+            <button type="button" role="tab" id="t-shine" aria-controls="p-shine" aria-selected="false">{{icon shine}} Dull paintwork</button>
+            <button type="button" role="tab" id="t-engine" aria-controls="p-engine" aria-selected="false">{{icon wrench}} Needs a service</button>
+            <button type="button" role="tab" id="t-electric" aria-controls="p-electric" aria-selected="false">{{icon bolt}} Electrical fault</button>
+            <button type="button" role="tab" id="t-gas" aria-controls="p-gas" aria-selected="false">{{icon gas}} Gas refill</button>
+          </div>
+          <div class="chooser__panels">
+            <article class="chooser__panel" role="tabpanel" id="p-accident" aria-labelledby="t-accident" tabindex="0">
+              <h3>Panel beating</h3>
+              <p>Panels restored, then painted to match. Insurance repairs welcome.</p>
+              <a class="more" href="/contact/?service=panel-beating" data-use-service="panel-beating">Use this in the form {{icon arrow}}</a>
+            </article>
+            <article class="chooser__panel" role="tabpanel" id="p-paint" aria-labelledby="t-paint" tabindex="0">
+              <h3>Spray painting</h3>
+              <p>Colour-matched, from one panel to a full respray.</p>
+              <a class="more" href="/contact/?service=spray-painting" data-use-service="spray-painting">Use this in the form {{icon arrow}}</a>
+            </article>
+            <article class="chooser__panel" role="tabpanel" id="p-shine" aria-labelledby="t-shine" tabindex="0">
+              <h3>Polishing</h3>
+              <p>The shine brought back to tired paintwork.</p>
+              <a class="more" href="/contact/?service=polishing" data-use-service="polishing">Use this in the form {{icon arrow}}</a>
+            </article>
+            <article class="chooser__panel" role="tabpanel" id="p-engine" aria-labelledby="t-engine" tabindex="0">
+              <h3>Mechanical repairs</h3>
+              <p>Servicing, diagnostics and repairs, all makes.</p>
+              <a class="more" href="/contact/?service=mechanical" data-use-service="mechanical">Use this in the form {{icon arrow}}</a>
+            </article>
+            <article class="chooser__panel" role="tabpanel" id="p-electric" aria-labelledby="t-electric" tabindex="0">
+              <h3>Electrical repairs</h3>
+              <p>We find the fault and fix it.</p>
+              <a class="more" href="/contact/?service=electrical" data-use-service="electrical">Use this in the form {{icon arrow}}</a>
+            </article>
+            <article class="chooser__panel" role="tabpanel" id="p-gas" aria-labelledby="t-gas" tabindex="0">
+              <h3>Gas refill</h3>
+              <p>Call ahead and we&rsquo;ll confirm it suits your car.</p>
+              <a class="more" href="/contact/?service=gas-refill" data-use-service="gas-refill">Use this in the form {{icon arrow}}</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" data-reveal>
+          <h2 id="quote-title">Request a quote</h2>
+          <p>We&rsquo;ll call you back to arrange a time.</p>
+          {{> quote-form}}
+        </div>
+      </div>
+    </section>
+
+    <section class="makes" aria-label="Makes we work on">
+      <ul class="wrap makes__inner">
+        <li>Toyota</li>
+        <li>Volkswagen</li>
+        <li>Ford</li>
+        <li>Nissan</li>
+        <li>Isuzu</li>
+        <li>Mercedes-Benz</li>
+        <li>BMW</li>
+        <li class="makes__note">and every other make</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="fleet-title">
+      <div class="wrap split">
+        <figure class="split__media" data-reveal>
+          {{img name="fleet-service" alt="A mechanic in blue gloves works on the underside of a vehicle raised on a lift" sizes="(min-width: 900px) 50vw, 100vw"}}
+        </figure>
+        <div class="split__text" data-reveal>
+          <p class="kicker">Insurers and fleets</p>
+          <h2 class="h2" id="fleet-title">One workshop for every vehicle you look after</h2>
+          <ul class="checks">
+            <li>{{icon check}} Insurance companies</li>
+            <li>{{icon check}} Government and public institutions</li>
+            <li>{{icon check}} Private companies</li>
+            <li>{{icon check}} Car dealerships</li>
+          </ul>
+          <a class="btn btn--ghost" href="/fleet-and-insurance/">For fleets {{icon arrow}}</a>
+        </div>
+      </div>
+    </section>
+
+    {{> cta}}
